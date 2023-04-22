@@ -1,11 +1,12 @@
 # test_technical_indicators.py
 import unittest
 import pandas as pd
-from technical_indicators import TechnicalIndicators
+from technical_indicators import Moving_Averages
+from technical_indicators import CandlestickPlot
 
 class TestTechnicalIndicators(unittest.TestCase):
     def setUp(self):
-        self.indicators = TechnicalIndicators()
+        self.indicators = Moving_Averages()
 
     def test_simple_moving_average(self):
         data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

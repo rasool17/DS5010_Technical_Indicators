@@ -8,20 +8,25 @@ Exponential Moving Average (EMA), Relative Strength Index (RSI), Autoregressive 
 The package consists of Two classes and Five Functions. Existing libraries like NumPy, pandas, and Matplotlib are used for data manipulation and visualization.
 
 #### Class: Moving_Averages
-- The `simple_moving_average` and `exponential_moving_average` classes calculate the corresponding moving averages
 
-`simple_moving_average` calculated using the below:
+###### Function: (1) `simple_moving_average`
+`simple_moving_average` calculates the average price of a security over a specified time period, using the below:
 ![image](https://user-images.githubusercontent.com/67727487/233747226-c0fc395f-8b75-471b-9fa4-435afaee0540.png)
 
-`exponential_moving_average` calculated using the below:
+###### Function: (2) `exponential_moving_average`
+`exponential_moving_average` calculates a similar average, but gives more weight to recent prices, using the below:
 ![image](https://user-images.githubusercontent.com/67727487/233747308-3573010e-bcc6-4232-a1d7-32b9e16faa0e.png)
 
-- The `relative_strength_index` class calculates the RSI values
-- The `autoregressive_moving_average` class fits an ARMA model to the given data
+###### Function: (3) `relative_strength_index`
+- The `relative_strength_index` calculates the strength of a security's price trend by comparing the average gains to the average losses over a specified time period, using the below:
+
+###### Function: (4) `autoregressive_moving_average`
+- The `autoregressive_moving_average` estimates the parameters of an autoregressive moving average (ARMA) model using the Yule-Walker equations, using the below:
 
 #### Class: CandlestickPlot
-- The `candlestick_plot` class defines functions for generating candlestick plots
 
+###### Function: (5) `CandlestickPlot`
+- The `candlestick_plot` generate a candlestick plot. Users can adjust the data input and plot parameters as needed
 
 Each class has a method that accepts historical price data and returns the corresponding indicator values.
 

@@ -7,7 +7,7 @@ import matplotlib.dates as mdates
 from matplotlib.dates import DateFormatter
 from statsmodels.tsa.arima.model import ARIMA
 
-class TechnicalIndicators:
+class Moving_Averages:
     def __init__(self):
         pass
 

@@ -7,7 +7,7 @@ Exponential Moving Average (EMA), Relative Strength Index (RSI), Autoregressive 
 ## Design
 The package consists of Two classes and Five Functions. Existing libraries like NumPy, pandas, and Matplotlib are used for data manipulation and visualization.
 
-## Class: Moving_Averages
+#### Class: Moving_Averages
 - The `simple_moving_average` and `exponential_moving_average` classes calculate the corresponding moving averages
 
 `simple_moving_average` calculated using the below:
@@ -19,7 +19,7 @@ The package consists of Two classes and Five Functions. Existing libraries like 
 - The `relative_strength_index` class calculates the RSI values
 - The `autoregressive_moving_average` class fits an ARMA model to the given data
 
-## Class: CandlestickPlot
+#### Class: CandlestickPlot
 - The `candlestick_plot` class defines functions for generating candlestick plots
 
 

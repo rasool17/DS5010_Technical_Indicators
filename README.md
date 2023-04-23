@@ -11,17 +11,25 @@ The package consists of Two classes and Five Functions. Existing libraries like 
 
 ###### Function: (1) `simple_moving_average`
 `simple_moving_average` calculates the average price of a security over a specified time period, using the below:
-![image](https://user-images.githubusercontent.com/67727487/233747226-c0fc395f-8b75-471b-9fa4-435afaee0540.png)
+
+![image](https://user-images.githubusercontent.com/67727487/233853607-04499faf-89a8-4ba6-ab20-d2e9392276b6.png)
 
 ###### Function: (2) `exponential_moving_average`
 `exponential_moving_average` calculates a similar average, but gives more weight to recent prices, using the below:
-![image](https://user-images.githubusercontent.com/67727487/233747308-3573010e-bcc6-4232-a1d7-32b9e16faa0e.png)
+
+![image](https://user-images.githubusercontent.com/67727487/233853723-58b1027d-e345-481b-a83d-8e3a4f75b5ac.png)
 
 ###### Function: (3) `relative_strength_index`
 - The `relative_strength_index` calculates the strength of a security's price trend by comparing the average gains to the average losses over a specified time period, using the below:
 
+![image](https://user-images.githubusercontent.com/67727487/233853677-d92da374-2a9c-4076-ba31-a655dd9eafd5.png)
+
+
 ###### Function: (4) `autoregressive_moving_average`
 - The `autoregressive_moving_average` estimates the parameters of an autoregressive moving average (ARMA) model using the Yule-Walker equations, using the below:
+
+![image](https://user-images.githubusercontent.com/67727487/233854354-6561d532-5671-4a6c-b578-ba7607bdf05b.png)
+
 
 #### Class: CandlestickPlot
 

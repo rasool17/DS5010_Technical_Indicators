@@ -49,7 +49,12 @@ Compared to similar libraries in Python, this package provides a more comprehens
 - [pandas](https://pandas.pydata.org/)
 - [Matplotlib](https://matplotlib.org/)
 - [Statsmodels](https://www.statsmodels.org/stable/index.html)
-- Investopedia. (n.d.). Simple Moving Average (SMA). Retrieved from https://www.investopedia.com/terms/s/sma.asp
-- Investopedia. (n.d.). What is the Exponential Moving Average (EMA) Formula and How is it Calculated? Retrieved from https://www.investopedia.com/ask/answers/122314/what-exponential-moving-average-ema-formula-and-how-ema-calculated.asp
-- Investopedia. (n.d.). Relative Strength Index (RSI). Retrieved from https://www.investopedia.com/terms/r/rsi.asp
-- Investopedia. (n.d.). Autoregressive Integrated Moving Average (ARIMA). Retrieved from https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp
+- ProjectPro. "How to Build ARIMA Model in Python", ProjectPro,
+https://www.projectpro.io/article/how-to-build-arima-model-in-python/544. Accessed
+23 April 2023
+- Alpharithms. "Relative Strength Index (RSI) in Python." Alpharithms, 27 Aug. 2021,
+https://www.alpharithms.com/relative-strength-index-rsi-in-python-470209/
+- GeeksforGeeks. "How to Calculate Moving Average in a Pandas Dataframe."
+geeksforgeeks.org, 18 June 2021, https://www.geeksforgeeks.org/how-to-calculatemoving-average-in-a-pandas-dataframe/
+- Plotly - Candlestick Charts in Python, https://plotly.com/python/candlestick-charts/
+- Technical Analysis, https://www.investopedia.com/technical-analysis-4689657
